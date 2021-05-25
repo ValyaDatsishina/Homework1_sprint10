@@ -131,5 +131,8 @@ REST_FRAMEWORK = {
     'DEFAULT_THROTTLE_RATES': {
         'user': '100/minute',  # лимит для UserRateThrottle
         'anon': '10/minute',  # лимит для AnonRateThrottle
-    }
+    },
+    'DEFAULT_PAGINATION_CLASS': 'posts.pagination.CustomPagination',
+    'PAGE_SIZE': 10
+
 }
