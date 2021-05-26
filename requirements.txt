@@ -19,3 +19,9 @@ sorl-thumbnail==12.7.0
 sqlparse==0.4.1
 toml==0.10.2
 urllib3==1.26.4
+
+pip~=21.0.1
+tornado~=6.1
+six~=1.15.0
+setuptools~=49.2.1
+django-filter~=2.4.0
